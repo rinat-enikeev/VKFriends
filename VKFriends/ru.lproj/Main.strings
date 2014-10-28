@@ -1,0 +1,13 @@
+
+/* Class = "IBUITextField"; placeholder = "Enter vkontakte user id"; ObjectID = "FQu-Wh-0uJ"; */
+"FQu-Wh-0uJ.placeholder" = "Введите id пользователя вконтакте";
+
+/* Class = "IBUILabel"; text = "Friends name"; ObjectID = "b24-W2-SJO"; */
+"b24-W2-SJO.text" = "Имя друга";
+
+/* Class = "IBUINavigationItem"; title = "Vkontakte friends by id"; ObjectID = "yag-UB-nXG"; */
+"yag-UB-nXG.title" = "Друзья из ВКонтакте по id";
+
+/* Class = "IBUIButton"; normalTitle = "Load"; ObjectID = "zeJ-z2-ddM"; */
+"zeJ-z2-ddM.normalTitle" = "Загрузить";
+

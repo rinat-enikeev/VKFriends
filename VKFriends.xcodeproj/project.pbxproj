@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E82849E19FF8E60004EBC96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E82849D19FF8E60004EBC96 /* main.m */; };
+		0E8284A119FF8E60004EBC96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8284A019FF8E60004EBC96 /* AppDelegate.m */; };
+		0E8284A419FF8E60004EBC96 /* YTFriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8284A319FF8E60004EBC96 /* YTFriendsTableViewController.m */; };
+		0E8284A719FF8E60004EBC96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8284A519FF8E60004EBC96 /* Main.storyboard */; };
+		0E8284A919FF8E60004EBC96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E8284A819FF8E60004EBC96 /* Images.xcassets */; };
+		0E8284AC19FF8E60004EBC96 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E8284AA19FF8E60004EBC96 /* LaunchScreen.xib */; };
+		0E8284B819FF8E60004EBC96 /* VKFriendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8284B719FF8E60004EBC96 /* VKFriendsTests.m */; };
+		0E8284C819FF8F88004EBC96 /* YTVKLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8284C719FF8F88004EBC96 /* YTVKLoader.m */; };
+		0E8284CC19FF90E9004EBC96 /* YTVKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8284CB19FF90E9004EBC96 /* YTVKUser.m */; };
+		0E8284D919FFA906004EBC96 /* YTVKFriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8284D819FFA906004EBC96 /* YTVKFriendTableViewCell.m */; };
+		0E8284DE19FFCC66004EBC96 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E8284E019FFCC66004EBC96 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E8284B219FF8E60004EBC96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E82849019FF8E60004EBC96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E82849719FF8E60004EBC96;
+			remoteInfo = VKFriends;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E82849819FF8E60004EBC96 /* VKFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E82849C19FF8E60004EBC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E82849D19FF8E60004EBC96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E82849F19FF8E60004EBC96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E8284A019FF8E60004EBC96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E8284A219FF8E60004EBC96 /* YTFriendsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTFriendsTableViewController.h; sourceTree = "<group>"; };
+		0E8284A319FF8E60004EBC96 /* YTFriendsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTFriendsTableViewController.m; sourceTree = "<group>"; };
+		0E8284A619FF8E60004EBC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E8284A819FF8E60004EBC96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0E8284AB19FF8E60004EBC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0E8284B119FF8E60004EBC96 /* VKFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E8284B619FF8E60004EBC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E8284B719FF8E60004EBC96 /* VKFriendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKFriendsTests.m; sourceTree = "<group>"; };
+		0E8284C619FF8F88004EBC96 /* YTVKLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTVKLoader.h; sourceTree = "<group>"; };
+		0E8284C719FF8F88004EBC96 /* YTVKLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTVKLoader.m; sourceTree = "<group>"; };
+		0E8284CA19FF90E9004EBC96 /* YTVKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTVKUser.h; sourceTree = "<group>"; };
+		0E8284CB19FF90E9004EBC96 /* YTVKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTVKUser.m; sourceTree = "<group>"; };
+		0E8284D719FFA906004EBC96 /* YTVKFriendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTVKFriendTableViewCell.h; sourceTree = "<group>"; };
+		0E8284D819FFA906004EBC96 /* YTVKFriendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTVKFriendTableViewCell.m; sourceTree = "<group>"; };
+		0E8284DC19FFCC60004EBC96 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		0E8284DD19FFCC60004EBC96 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0E8284DF19FFCC66004EBC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0E8284E119FFCC6D004EBC96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0E8284E219FFCC6E004EBC96 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0E8284E419FFCCC1004EBC96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E82849519FF8E60004EBC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8284AE19FF8E60004EBC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E82848F19FF8E60004EBC96 = {
+			isa = PBXGroup;
+			children = (
+				0E82849A19FF8E60004EBC96 /* VKFriends */,
+				0E8284B419FF8E60004EBC96 /* VKFriendsTests */,
+				0E82849919FF8E60004EBC96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E82849919FF8E60004EBC96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E82849819FF8E60004EBC96 /* VKFriends.app */,
+				0E8284B119FF8E60004EBC96 /* VKFriendsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E82849A19FF8E60004EBC96 /* VKFriends */ = {
+			isa = PBXGroup;
+			children = (
+				0E8284D419FF9DE6004EBC96 /* Scenes */,
+				0E8284C919FF90DA004EBC96 /* VKDomain */,
+				0E8284C219FF8EB3004EBC96 /* VKLoader */,
+				0E82849F19FF8E60004EBC96 /* AppDelegate.h */,
+				0E8284A019FF8E60004EBC96 /* AppDelegate.m */,
+				0E8284A519FF8E60004EBC96 /* Main.storyboard */,
+				0E8284A819FF8E60004EBC96 /* Images.xcassets */,
+				0E8284AA19FF8E60004EBC96 /* LaunchScreen.xib */,
+				0E82849B19FF8E60004EBC96 /* Supporting Files */,
+			);
+			path = VKFriends;
+			sourceTree = "<group>";
+		};
+		0E82849B19FF8E60004EBC96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E82849C19FF8E60004EBC96 /* Info.plist */,
+				0E82849D19FF8E60004EBC96 /* main.m */,
+				0E8284E019FFCC66004EBC96 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E8284B419FF8E60004EBC96 /* VKFriendsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E8284B719FF8E60004EBC96 /* VKFriendsTests.m */,
+				0E8284B519FF8E60004EBC96 /* Supporting Files */,
+			);
+			path = VKFriendsTests;
+			sourceTree = "<group>";
+		};
+		0E8284B519FF8E60004EBC96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E8284B619FF8E60004EBC96 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E8284C219FF8EB3004EBC96 /* VKLoader */ = {
+			isa = PBXGroup;
+			children = (
+				0E8284C619FF8F88004EBC96 /* YTVKLoader.h */,
+				0E8284C719FF8F88004EBC96 /* YTVKLoader.m */,
+			);
+			name = VKLoader;
+			sourceTree = "<group>";
+		};
+		0E8284C919FF90DA004EBC96 /* VKDomain */ = {
+			isa = PBXGroup;
+			children = (
+				0E8284CA19FF90E9004EBC96 /* YTVKUser.h */,
+				0E8284CB19FF90E9004EBC96 /* YTVKUser.m */,
+			);
+			name = VKDomain;
+			sourceTree = "<group>";
+		};
+		0E8284D419FF9DE6004EBC96 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0E8284D519FFA8E8004EBC96 /* FriendsList */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		0E8284D519FFA8E8004EBC96 /* FriendsList */ = {
+			isa = PBXGroup;
+			children = (
+				0E8284D619FFA8F0004EBC96 /* Cell */,
+				0E8284A219FF8E60004EBC96 /* YTFriendsTableViewController.h */,
+				0E8284A319FF8E60004EBC96 /* YTFriendsTableViewController.m */,
+			);
+			name = FriendsList;
+			sourceTree = "<group>";
+		};
+		0E8284D619FFA8F0004EBC96 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0E8284D719FFA906004EBC96 /* YTVKFriendTableViewCell.h */,
+				0E8284D819FFA906004EBC96 /* YTVKFriendTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E82849719FF8E60004EBC96 /* VKFriends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E8284BB19FF8E60004EBC96 /* Build configuration list for PBXNativeTarget "VKFriends" */;
+			buildPhases = (
+				0E82849419FF8E60004EBC96 /* Sources */,
+				0E82849519FF8E60004EBC96 /* Frameworks */,
+				0E82849619FF8E60004EBC96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKFriends;
+			productName = VKFriends;
+			productReference = 0E82849819FF8E60004EBC96 /* VKFriends.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E8284B019FF8E60004EBC96 /* VKFriendsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E8284BE19FF8E60004EBC96 /* Build configuration list for PBXNativeTarget "VKFriendsTests" */;
+			buildPhases = (
+				0E8284AD19FF8E60004EBC96 /* Sources */,
+				0E8284AE19FF8E60004EBC96 /* Frameworks */,
+				0E8284AF19FF8E60004EBC96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E8284B319FF8E60004EBC96 /* PBXTargetDependency */,
+			);
+			name = VKFriendsTests;
+			productName = VKFriendsTests;
+			productReference = 0E8284B119FF8E60004EBC96 /* VKFriendsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E82849019FF8E60004EBC96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rinat Enikeev";
+				TargetAttributes = {
+					0E82849719FF8E60004EBC96 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					0E8284B019FF8E60004EBC96 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 0E82849719FF8E60004EBC96;
+					};
+				};
+			};
+			buildConfigurationList = 0E82849319FF8E60004EBC96 /* Build configuration list for PBXProject "VKFriends" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 0E82848F19FF8E60004EBC96;
+			productRefGroup = 0E82849919FF8E60004EBC96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E82849719FF8E60004EBC96 /* VKFriends */,
+				0E8284B019FF8E60004EBC96 /* VKFriendsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E82849619FF8E60004EBC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8284A719FF8E60004EBC96 /* Main.storyboard in Resources */,
+				0E8284DE19FFCC66004EBC96 /* Localizable.strings in Resources */,
+				0E8284AC19FF8E60004EBC96 /* LaunchScreen.xib in Resources */,
+				0E8284A919FF8E60004EBC96 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8284AF19FF8E60004EBC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E82849419FF8E60004EBC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8284A419FF8E60004EBC96 /* YTFriendsTableViewController.m in Sources */,
+				0E8284C819FF8F88004EBC96 /* YTVKLoader.m in Sources */,
+				0E8284A119FF8E60004EBC96 /* AppDelegate.m in Sources */,
+				0E82849E19FF8E60004EBC96 /* main.m in Sources */,
+				0E8284CC19FF90E9004EBC96 /* YTVKUser.m in Sources */,
+				0E8284D919FFA906004EBC96 /* YTVKFriendTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8284AD19FF8E60004EBC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8284B819FF8E60004EBC96 /* VKFriendsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E8284B319FF8E60004EBC96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E82849719FF8E60004EBC96 /* VKFriends */;
+			targetProxy = 0E8284B219FF8E60004EBC96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E8284A519FF8E60004EBC96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E8284A619FF8E60004EBC96 /* Base */,
+				0E8284DC19FFCC60004EBC96 /* ru */,
+				0E8284E419FFCCC1004EBC96 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E8284AA19FF8E60004EBC96 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E8284AB19FF8E60004EBC96 /* Base */,
+				0E8284DD19FFCC60004EBC96 /* ru */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		0E8284E019FFCC66004EBC96 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E8284DF19FFCC66004EBC96 /* Base */,
+				0E8284E119FFCC6D004EBC96 /* en */,
+				0E8284E219FFCC6E004EBC96 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E8284B919FF8E60004EBC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E8284BA19FF8E60004EBC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E8284BC19FF8E60004EBC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = VKFriends/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E8284BD19FF8E60004EBC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = VKFriends/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E8284BF19FF8E60004EBC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VKFriendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKFriends.app/VKFriends";
+			};
+			name = Debug;
+		};
+		0E8284C019FF8E60004EBC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VKFriendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKFriends.app/VKFriends";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E82849319FF8E60004EBC96 /* Build configuration list for PBXProject "VKFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E8284B919FF8E60004EBC96 /* Debug */,
+				0E8284BA19FF8E60004EBC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E8284BB19FF8E60004EBC96 /* Build configuration list for PBXNativeTarget "VKFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E8284BC19FF8E60004EBC96 /* Debug */,
+				0E8284BD19FF8E60004EBC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E8284BE19FF8E60004EBC96 /* Build configuration list for PBXNativeTarget "VKFriendsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E8284BF19FF8E60004EBC96 /* Debug */,
+				0E8284C019FF8E60004EBC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E82849019FF8E60004EBC96 /* Project object */;
+}
